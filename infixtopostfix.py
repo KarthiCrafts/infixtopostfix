@@ -24,6 +24,16 @@ def infix_to_postfix(infix_expr):
             stack.append(char)
     while stack:
         postfix_expr+=stack.pop()
-    return postfix_expr
+    return postfix_expr                                       
 exp="A*(B+C)/D"
 print(infix_to_postfix(exp))
+
+
+
+#INFIX TO PREFIX
+'''
+
+REVERSE
+FLIP ()
+INTFIX TO POST FIX
+REVERESE THE INFIX TO POSTFIX RESULT'''
